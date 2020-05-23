@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+}
+
+nav {
+/*    바탕색은 고민좀 해봐야함 */
+    background-color:dimgray;
+    height:200px;
+    position:fixed;
+    width:100%;
+    display: flex;
+    
+}
+
+#logo {
+    padding:42px;
+    margin-left:200px;
+    width:200px;
+    font-family: 'Anton', sans-serif;
+}
+
+#logo a {
+    color:white;
+    font-size: 80px;
+    text-decoration: none;
+}
+
+#menu {
+    padding:45px 0px;
+    margin-left:30px;
+}
+
+ #menu div {
+    background-color: white;
+    height:10px;
+    width: 100px;
+    margin:20px;
+    border-radius: 4px;
+}
+/*확장형 메뉴-s*/
+#hm {
+    height:100%;
+    width:100%;
+    position: fixed;
+    display: none;
+}
+
+.rm{
+    background-color: dimgray;
+    height:100%;
+    width:80%;
+    float: left;
+}
+
+.sd{
+    background-color: rgba(0,0,0,0.2);
+    filter: blur(5px); 
+    height:100%;
+    width: 20%;
+    float: left;
+}
+
+.rm ul li {
+    list-style: none;
+}
+
+.rm ul li a {
+    color:white;
+    font-size:100px;
+    text-decoration:none;
+}
+
+/*확장형 메뉴-e*/

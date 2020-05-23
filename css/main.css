@@ -2,11 +2,12 @@
 body{
     margin: 0px;
     font-family: 'Anton', sans-serif;
+    background-color: #f6f4f0;
 }
 
 nav {
 /*    바탕색은 고민좀 해봐야함 */
-    background-color:dimgray;
+    background-color:#008d92;
     height:150px;
     width:100%;
     display: flex;
@@ -30,6 +31,7 @@ nav {
 #menu {
     padding:17px 0px;
     margin-left:30px;
+    cursor:pointer;
 }
 
  #menu div {
@@ -41,6 +43,7 @@ nav {
 }
 /*확장형 메뉴-s*/
 #hm {
+    
     height:100%;
     width:100%;
     position: fixed;
@@ -48,7 +51,7 @@ nav {
 }
 
 .rm{
-    background-color: white;
+    background-color: #f6f4f0;
     height:100%;
     width:80%;
     float: left;
@@ -66,16 +69,41 @@ nav {
     width:100%;
     padding:0px;
 }
-.rm ul li {
+.rm ul li a {
+    background-color: white;
+    margin-bottom:10px;
     list-style: none;
     font-size:80px;
     border:1px solid #454545;
     padding: 50px;
+    display: block;
 }
 
 .rm ul li a {
     color:black;
     text-decoration: none;
+}
+
+.rm ul li :hover{
+    background-color: #eee;
+}
+
+.rm div {
+    height: 150px;
+    background-color: #008d92;
+    margin-bottom: 10px;
+}
+
+.cancel {
+    font-size: 100px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: #008d92;
+    border: none;
+    
 }
 
 /*확장형 메뉴-e*/
@@ -90,6 +118,7 @@ main {
 }
 
 #article_big{
+    background-color: white;
     margin:30px auto;
     height:800px;
     width:900px;
@@ -97,6 +126,7 @@ main {
 }
 
 .article_s {
+    background-color: white;
     margin:30px auto;
     height:300px;
     width:900px;

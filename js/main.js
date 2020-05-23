@@ -22,4 +22,10 @@ $(document).ready(function(){
     $(".gtt").toggle();
   });
 });
+
+$(document).ready(function(){
+    $(".cancel").click(function(){
+        $("#hm").toggle();
+    });
+});
 //확장형  메뉴 동작-e

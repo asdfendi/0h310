@@ -1,5 +1,7 @@
+/*모바일*/
 body{
     margin: 0px;
+    font-family: 'Anton', sans-serif;
 }
 
 nav {
@@ -9,13 +11,14 @@ nav {
     width:100%;
     display: flex;
     position:fixed;
+    margin: 0px;
 }
 
 #logo {
     padding:15px;
     margin-left:200px;
     width:200px;
-    font-family: 'Anton', sans-serif;
+
 }
 
 #logo a {
@@ -99,3 +102,60 @@ main {
     width:900px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.gtt {
+    background-color: rgba(0,0,0,0.2);
+    border-radius:40px;
+    position: fixed;
+    bottom:10%;
+    right:10%;
+    text-align: center;
+    padding: 50px 50px ;
+}
+
+.gtt a {
+    color:white;
+    text-decoration: none;
+    font-size:50px;
+    
+}
+
+/*데스크탑 (일단보류)
+@media(min-width: 768px) {
+    nav {
+    background-color:dimgray;
+    height:50px;
+}
+    #menu {
+    padding:10px 0px;
+    margin-left:5px;
+}
+
+ #menu div {
+    background-color: white;
+    height:3px;
+    width: 30px;
+    margin:5px;
+    border-radius: 4px;
+}
+    
+    #logo {
+    padding:3px;
+    width:200px;
+    font-family: 'Anton', sans-serif;
+    margin: auto;
+}
+
+    #logo a {
+        color:white;
+        font-size: 30px;
+        text-decoration: none;
+}
+
+    #logo :hover {
+        color:#eee;
+        transition:all 0.3s;
+    }
+    
+}
+*/

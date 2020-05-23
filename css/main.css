@@ -81,6 +81,11 @@ nav {
     height:150px;
 }
 
+main {
+    width:950px;
+    margin: auto;
+}
+
 #article_big{
     margin:30px auto;
     height:800px;

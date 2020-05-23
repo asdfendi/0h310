@@ -6,10 +6,9 @@ nav {
 /*    바탕색은 고민좀 해봐야함 */
     background-color:dimgray;
     height:150px;
-    position:fixed;
     width:100%;
     display: flex;
-    
+    position:fixed;
 }
 
 #logo {
@@ -46,7 +45,7 @@ nav {
 }
 
 .rm{
-    background-color: dimgray;
+    background-color: white;
     height:100%;
     width:80%;
     float: left;
@@ -59,15 +58,39 @@ nav {
     width: 20%;
     float: left;
 }
-
+.rm ul {
+    margin: 0px;
+    width:100%;
+    padding:0px;
+}
 .rm ul li {
     list-style: none;
+    font-size:80px;
+    border:1px solid #454545;
+    padding: 50px;
 }
 
 .rm ul li a {
-    color:white;
-    font-size:100px;
-    text-decoration:none;
+    color:black;
+    text-decoration: none;
 }
 
 /*확장형 메뉴-e*/
+
+.space{
+    height:150px;
+}
+
+#article_big{
+    margin:30px auto;
+    height:800px;
+    width:900px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.article_s {
+    margin:30px auto;
+    height:300px;
+    width:900px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
